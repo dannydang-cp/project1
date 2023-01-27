@@ -1,0 +1,39 @@
+Most of the functins were placed in the file that had the same parameter.
+
+_____________________________________________________________________________________________________________________
+Entity items:
+
+createEntity(): functions were chosen to be placed in entity and set as static because there should be only one type 
+of those specific entities and it was only fitting to place them in the entity file as it dealt with them.
+
+_____________________________________________________________________________________________________________________
+Point and Viewport Items:
+
+getIntFromRange():
+getNumFromRange():
+adjacent():
+distanceSquared():
+equals():
+Functions that had to deal with arithmetic and other math functions were chosen to be placed in the Viewport or Point 
+depending on what they needed and did. 
+
+________________________________________________________________________________________________________________________
+Function items
+
+parseFiles(): functions were kept in the original function file because their purposes seem to simply just place the
+stated object into the location in the game and it could also fit multiple classes so that's is why I chose to keep
+it in the original location.
+
+setAlpha(): function did not seem to have a big impact of the game so I decided to keep it in functions because it's
+lack of usefulness.
+
+getImages(): function was also left in the orignal functions file because the image store already had a getImageList
+function so therefore there was not much need for this function.
+
+processImageLine(): function seems to deal with the creation of the background and viewport so I decided to leave it
+in functions as it will be unused after the game starts running.
+
+load(): function was left in functions with similar reasons with the above functions because it was only used in the
+beginning when loading up the game.
+
+
